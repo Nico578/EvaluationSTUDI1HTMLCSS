@@ -5,20 +5,23 @@
   width: 100%;
 }
 .container .col > img {
-  width:450px;
+  width:400px;
 }
 h2 {
   font-family: 'Great Vibes', cursive;
-  color: antiquewhite;
 }
 p {
   font-size: 17px;
 }
 
-.refuges {
+.refuges, .retraite {
   background: rgb(87, 58, 58);
   text-align: justify;
 }
+.dispensaires {
+  background: whitesmoke;
+}
+
 
 
 @media screen and (max-width : 1200px) {
@@ -28,8 +31,11 @@ p {
 }
 
 @media screen and (max-width : 992px) {
-  .refuges {
+  .refuges, .dispensaires, .retraite {
     text-align: center;
+  }
+  .container .col > img {
+    width:300px;
   }
   p {
     font-size: 1rem;
