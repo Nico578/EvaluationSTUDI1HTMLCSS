@@ -1,0 +1,38 @@
+.navbar-brand > img {
+  width: 200px;
+}
+.banner > img {
+  width: 100%;
+}
+.container .col > img {
+  width:450px;
+}
+h2 {
+  font-family: 'Great Vibes', cursive;
+  color: antiquewhite;
+}
+p {
+  font-size: 17px;
+}
+
+.refuges {
+  background: rgb(87, 58, 58);
+  text-align: justify;
+}
+
+
+@media screen and (max-width : 1200px) {
+  p {
+    font-size: 15px;
+  }
+}
+
+@media screen and (max-width : 992px) {
+  .refuges {
+    text-align: center;
+  }
+  p {
+    font-size: 1rem;
+  }
+}
+
