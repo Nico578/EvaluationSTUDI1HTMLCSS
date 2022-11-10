@@ -1,18 +1,19 @@
 body {
   display: inline-grid;
   grid-template-columns: 1fr;
-  grid-template-rows: 120px 1fr 100px;
+  grid-template-rows: 112px 1fr 50px;
   min-height: 100vh;
   width: 100%;
-  grid-template-areas: 
-  "header"
-  "main"
-  "footer";
+  grid-template-areas:
+    "header"
+    "main"
+    "footer";
 }
 header {
   grid-area: header;
 }
 main {
+  text-align: center;
   grid-area: main;
 }
 
@@ -29,6 +30,7 @@ main {
 }
 .banner > img {
   width: 100%;
+  margin-top: -10px;
 }
 
 footer {
