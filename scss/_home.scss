@@ -5,7 +5,7 @@
 
 h1 {
   font-family: "Handlee", cursive;
-  font-size: 25px;
+  font-size: 35px;
   text-align: center;
 }
 h2 {
@@ -22,11 +22,13 @@ p {
 
 .refuges,
 .retraite {
+  text-align: start;
   background: rgb(87, 58, 58);
-  text-align: justify;
 }
+
 .dispensaires,
 .peda {
+  text-align: end;
   background: whitesmoke;
 }
 }

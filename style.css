@@ -3,7 +3,7 @@
 
 .home h1 {
   font-family: "Handlee", cursive;
-  font-size: 25px;
+  font-size: 35px;
   text-align: center; }
 
 .home h2 {
@@ -19,11 +19,12 @@
 
 .home .refuges,
 .home .retraite {
-  background: #573a3a;
-  text-align: justify; }
+  text-align: start;
+  background: #573a3a; }
 
 .home .dispensaires,
 .home .peda {
+  text-align: end;
   background: whitesmoke; }
 
 body {
@@ -33,13 +34,6 @@ body {
   min-height: 100vh;
   width: 100%;
   grid-template-areas: "header" "main" "footer"; }
-
-header {
-  grid-area: header; }
-
-main {
-  text-align: center;
-  grid-area: main; }
 
 .navbar {
   background: #0060ff;
@@ -64,9 +58,12 @@ footer {
     font-size: 15px; } }
 
 @media screen and (max-width: 992px) {
-  .refuges,
-  .dispensaires,
-  .retraite {
+  h1 {
+    font-size: 10px; }
+  .home .refuges,
+  .home .dispensaires,
+  .home .retraite,
+  .home .peda {
     text-align: center; }
   .container .col > img {
     width: 300px; }
@@ -74,6 +71,9 @@ footer {
     font-size: 1rem; }
   footer {
     position: relative !important; } }
+
+.contact main {
+  text-align: center; }
 
 .contact h1 {
   font-size: 50px; }

@@ -9,13 +9,6 @@ body {
     "main"
     "footer";
 }
-header {
-  grid-area: header;
-}
-main {
-  text-align: center;
-  grid-area: main;
-}
 
 .navbar {
   background: rgb(0, 96, 255);
@@ -52,10 +45,16 @@ footer {
 }
 
 @media screen and (max-width: 992px) {
-  .refuges,
-  .dispensaires,
-  .retraite {
-    text-align: center;
+  h1 {
+    font-size: 10px;
+  }
+  .home {
+    .refuges,
+    .dispensaires,
+    .retraite,
+    .peda {
+      text-align: center;
+    }
   }
   .container .col > img {
     width: 300px;
