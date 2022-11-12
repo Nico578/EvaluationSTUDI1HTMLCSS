@@ -4,7 +4,7 @@
       width: 80%;
     }
     h1 {
-      font-size: 40px;
+      color: orange;
       text-align: center;
     }
     h4 {
@@ -14,6 +14,10 @@
     h5 {
       margin: auto 20px;
     }
+  }
+  .card-title {
+    font-weight: bold;
+    color: orange;
   }
 
   .container-fluid .main img {
